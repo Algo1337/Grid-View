@@ -12,12 +12,6 @@
 #define VERITICAL_LINE "|"
 #define HORIZONTAL_LINE "-"
 
-typedef char * Column;
-
-typedef struct Row {
-    Column  **Columns;
-} Row;
-
 typedef struct Grid {
     int         RowCount;
     int         ColumnCount;
